@@ -1,0 +1,58 @@
+package stepdef;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class atitudetest {
+
+
+	@Given("I am ([^\"]*")
+	public void Iam(String str)
+	{
+		if(str.equals("rajashekar"))
+		{
+			System.out.println("rajashekar printed");
+		}
+		
+		if(str.equals("Naresh"))
+		{
+			System.out.println("Naresh printed");
+		}
+	}
+	
+	
+	
+
+	@When("I speak")
+	public void Ispeak(String str)
+	{
+		if(str.equals("english"))
+		{
+			System.out.println("english printed");
+		}
+		
+		if(str.equals("telugu"))
+		{
+			System.out.println("telugu printed");
+		}
+	}
+	
+	
+	
+
+	@Then("I can")
+	public void Ican(String str)
+	{
+		if(str.equals("go hyd"))
+		{
+			System.out.println("go hyd printed");
+		}
+		
+		if(str.equals("go germany"))
+		{
+			System.out.println("go germany printed");
+		}
+	}
+
+}

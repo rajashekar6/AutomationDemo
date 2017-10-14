@@ -1,0 +1,34 @@
+package stepdef;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+
+public class atitudetest {
+
+	
+	@When("I complete")
+	public void Icomplete(String str)
+	{
+		if(str.equals("action"))
+		{
+			System.out.println("action printed");
+		}
+		
+		if(str.equals("your"))
+		{
+			System.out.println("your printed");
+		}
+	}
+	
+	
+	
+	@Given("Navigate")
+	public void late(String str)
+	{
+
+		
+		
+	}
+
+
+}

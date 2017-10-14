@@ -1,0 +1,8 @@
+name: Suite
+tests:
+  - name: Test
+    classes:
+      - XSLT_Reportpack.XSLTreport
+      - testNg.newprogram
+      - com.testNg.NewTest
+

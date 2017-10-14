@@ -1,0 +1,31 @@
+package javabasics;
+
+public class basic {
+
+	int a, b ,c;
+	void acc()
+	{
+		 a = 44 ; b=33;
+	}
+	void add()
+	{
+	c = a+b;
+
+	}
+ void prinn()
+ {
+	 System.out.println("value of a = "+a);
+	 System.out.println("value of b = "+b);
+	 //System.out.println("value of c = "+c);
+ }
+	public static void main(String args[])
+	{
+	basic b = new basic();
+	b.acc();
+	b.add();
+	b.prinn();
+	System.out.println("end");
+	}
+	
+
+}

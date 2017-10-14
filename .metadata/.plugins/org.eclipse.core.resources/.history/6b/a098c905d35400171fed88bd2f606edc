@@ -1,0 +1,97 @@
+package CF.cf123;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.UnhandledAlertException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class basiclogin 
+{
+    public static void main( String[] args ) throws InterruptedException
+    {
+  
+	  	File file = new File("src/test/java/cloud/properties/xpaths.properties");
+		  
+		FileInputStream fileInput = null;
+		try {
+			fileInput = new FileInputStream(file);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		Properties prop = new Properties();
+		
+		//load properties file
+		try {
+			prop.load(fileInput);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+				WebDriver driver = new FirefoxDriver();
+					try {
+						driver.manage().window().maximize();
+        
+						driver.navigate().to(prop.getProperty("URL"));	
+     
+        //login page 
+		driver.findElement(By.xpath(prop.getProperty("Enter_email"))).sendKeys("raja@cloudfuze.com");
+
+		driver.findElement(By.xpath(prop.getProperty("Enter_password"))).sendKeys("cloudfuze");
+		
+		driver.findElement(By.xpath(prop.getProperty("Login_button"))).click();
+	
+		//impicitWait(5000);
+		
+		Thread.sleep(4000);
+    	
+		//Clouds page
+		driver.findElement(By.xpath(prop.getProperty("Clouds"))).click();
+		
+		//Adding clouds FTP
+		Thread.sleep(4000);
+		
+		
+		driver.findElement(By.xpath(prop.getProperty("FTP"))).click();
+		//ftp popup			
+		driver.switchTo().window(driver.getWindowHandle());
+		driver.findElement(By.xpath(prop.getProperty("F.DisplayName"))).sendKeys("fff");
+		driver.findElement(By.xpath(prop.getProperty("F.UserName"))).sendKeys("fff");
+		driver.findElement(By.xpath(prop.getProperty("F.Password"))).sendKeys("fff");
+		driver.findElement(By.xpath(prop.getProperty("F.Server"))).sendKeys("fff");
+		driver.findElement(By.xpath(prop.getProperty("F.PortNumber"))).sendKeys("fff");
+		driver.findElement(By.xpath(prop.getProperty("F.Add"))).click();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+    	//driver.close();
+    	
+		
+		
+    
+    }
+   
+   catch (UnhandledAlertException e) {
+       System.err.println("Caught UnhandledAlertException: ");                 
+   }
+ }
+    
+   
+} 
+    
+    
+    
+    

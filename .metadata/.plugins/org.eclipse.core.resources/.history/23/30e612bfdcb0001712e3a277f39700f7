@@ -1,0 +1,14 @@
+package cucumber.CF;
+
+import org.junit.runner.RunWith;
+
+import cucumber.api.CucumberOptions;
+
+@RunWith(CucumberOptions.class)
+@CucumberOptions.Options(format={"html:output"})
+
+
+public class testRunner {
+
+	
+}

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Exinent\workspace\MAudio\src\test\java\Xpath\properties"/>
+			<item value="C:\Users\Exinent\workspace\Orange HRM\src\Testpackage\addemployee.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="cucumber.CF"/>
+			<item value="Pitch.pitchIt"/>
+			<item value="PageOm.Pageobjecteg"/>
+			<item value="ma.MoonAudio"/>
+			<item value="nmm.kj"/>
+			<item value="Moonaudio"/>
+			<item value="Moonaudio.MAudio"/>
+			<item value="Login.Cloudfuze"/>
+			<item value="Login.CloudFuze"/>
+			<item value="CF.Mavenproj"/>
+			<item value="STTA.MavenProject"/>
+		</list>
+		<list key="groupId">
+			<item value="cucumber"/>
+			<item value="Pitch"/>
+			<item value="PageOm"/>
+			<item value="ma"/>
+			<item value="nmm"/>
+			<item value="Moonaudio"/>
+			<item value="CF"/>
+			<item value="STTA"/>
+		</list>
+		<list key="artifactId">
+			<item value="CF"/>
+			<item value="pitchIt"/>
+			<item value=" pitchIt"/>
+			<item value="Pageobjecteg"/>
+			<item value="MoonAudio"/>
+			<item value="kj"/>
+			<item value="MAudio"/>
+			<item value="Cloudfuze"/>
+			<item value="CloudFuze"/>
+			<item value="Mavenproj"/>
+			<item value="MavenProject "/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,22 @@
+package mytestpackage;
+
+public class mytestclass {
+
+	
+	
+	WebDriver driver=new FirefoxDriver();	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

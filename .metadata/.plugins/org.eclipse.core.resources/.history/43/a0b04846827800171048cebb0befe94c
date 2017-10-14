@@ -1,0 +1,71 @@
+package multiusermigration;
+
+import java.io.IOException;
+
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.By;
+import org.openqa.selenium.UnhandledAlertException;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+
+import pageobject.multiuser;
+import resources.baseclass;
+
+public class Multicloudadding extends baseclass  {
+	
+	private static Logger log =LogManager.getLogger(baseclass.class.getName());	//logs
+	
+	
+	@Test
+	public void bfbaadd() throws IOException, InterruptedException   // BFBA cloud 
+	{
+		
+	
+		CFlogin c = new CFlogin(driver);
+		c.loginCF();
+		
+		multiuser m = new multiuser(driver);
+		m.BFBA().click();
+		
+		String winHandleBefore = driver.getWindowHandle();
+		windowhandle();
+		m.BFBAEmail().sendKeys("melvin@joukuu.net");
+		m.BFBAPwd().sendKeys("CloudFuze2017");
+		m.BFBAAuth().click();
+		m.BFBAGrant().click();
+		
+		driver.switchTo().window(winHandleBefore);
+	
+	}
+	
+	//m.DBFBLogin().click();
+	@Test
+	public void dbfbaadd() throws IOException, InterruptedException   // BFBA cloud 
+	{
+		multiuser m = new multiuser(driver);
+		m.GSUITE().click();
+		
+		String winHandleBefore = driver.getWindowHandle();
+		windowhandle();
+		
+		m.GSUITEEmail().sendKeys("Melvin@jookuu.com");
+		m.GSUITNext1().sendKeys("CloudFuze2017");
+		
+		
+		
+		driver.switchTo().window(winHandleBefore);
+		
+	}
+
+	}
+	
+	
+	
+
+
+	

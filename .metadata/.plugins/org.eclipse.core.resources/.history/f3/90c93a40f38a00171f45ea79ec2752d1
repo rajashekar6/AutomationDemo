@@ -1,0 +1,17 @@
+package javabasics;
+
+public class basic {
+
+	public static void main(String arg[]){
+
+		String r= "raja";
+	 // public void sum()	  
+	  {
+		  System.out.println(r);
+		  return;
+	  }
+	  
+	  
+	  
+	}
+}

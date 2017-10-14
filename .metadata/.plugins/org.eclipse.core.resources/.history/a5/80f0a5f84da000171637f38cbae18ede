@@ -1,0 +1,45 @@
+package javabasics;
+
+import java.util.HashSet;
+
+import com.gargoylesoftware.htmlunit.javascript.host.Iterator;
+
+public class hashsetex {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		HashSet<String> hs = new HashSet<String>();
+		hs.add("1");
+		hs.add("2");
+		hs.add("r3aj");
+		hs.add("3");
+		hs.add("4q");
+		hs.add("4");
+		hs.add("43");
+		hs.add("5");
+		hs.add("6");
+		hs.add("os17dsm");
+		hs.add("78");
+		hs.add("8");
+		
+		System.out.println(hs);
+		System.out.println(hs.size());
+		
+		java.util.Iterator<String> i = hs.iterator();
+		
+		while(i.hasNext())
+		{
+		System.out.println(i.next());
+		
+		System.out.println(i.next());
+		
+		}
+	
+	
+	
+	
+	}
+	
+	
+
+}

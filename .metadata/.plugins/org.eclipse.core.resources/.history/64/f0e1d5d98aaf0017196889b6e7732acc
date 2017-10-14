@@ -1,0 +1,57 @@
+package collectionsjava;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Iterator;
+
+public class looparraylist {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			ArrayList<Integer> ar = new ArrayList<Integer>(
+					Arrays.asList(34, 4, 36, 2) );
+			
+			System.out.println("names are"+ar);
+			
+			/* For Loop for iterating ArrayList */
+			for(int i=0; i<ar.size(); i++)
+			{
+				System.out.println(ar.get(i));
+			}
+	
+			System.out.println("Advanced");
+			 /* Advanced For Loop*/ 	
+			for(Integer num : ar){
+				System.out.println(num);
+			}
+	
+	
+			 /* While Loop for iterating ArrayList*/ 	
+			
+			
+			/*Looping Array List using Iterator*/
+		      System.out.println("Iterator");
+	
+		      Iterator it =	ar.iterator();
+		      while(it.hasNext()){
+		    	  System.out.println(it.next());
+		      }
+		      
+		      
+		      
+		      ArrayList<String> c = new ArrayList<String>();
+		      c.add("India");
+		      c.add("uk");
+		      c.add("US");
+		      c.add("soudi"); c.add("TG");
+		      System.out.println(c);
+		      
+		      /* Sort statement*/
+		      Collections.sort(c);
+		      System.out.println(c);
+		      
+		      
+	}
+
+}

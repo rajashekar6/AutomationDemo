@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 8, Time elapsed: 56.793 s <<< FAILURE! - in TestSuite
+initialize(magento.MoonAudio.categorieslink)  Time elapsed: 54.209 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+Window not found. The browser window may have been closed.
+Command duration or timeout: 1.56 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Exinent-PC', ip: '192.168.0.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2dadbf60-83f1-4779-b0de-97e8670a5a6f
+	at magento.MoonAudio.categorieslink.initialize(categorieslink.java:21)
+Caused by: org.openqa.selenium.NoSuchWindowException: 
+Window not found. The browser window may have been closed.
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Exinent-PC', ip: '192.168.0.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: unknown
+

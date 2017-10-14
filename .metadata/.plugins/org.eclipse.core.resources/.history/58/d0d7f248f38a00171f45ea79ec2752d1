@@ -1,0 +1,22 @@
+package javabasics;
+
+public class basic {
+
+	
+	public void sum()
+	{
+		String r= "raja";
+	}
+	public static void main(String arg[]){
+
+		
+	 	  
+	  {
+		  System.out.println(r);
+		  return;
+	  }
+	  
+	  
+	  
+	}
+}

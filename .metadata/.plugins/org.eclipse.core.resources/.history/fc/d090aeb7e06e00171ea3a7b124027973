@@ -1,0 +1,19 @@
+package javabasics;
+
+public class stringbasic {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String str = "my@$$ payment done";
+		System.out.println(str.charAt(4));
+		
+		String str1 = "my@$$ payment done";
+		System.out.println(str1.indexOf("$"));
+		
+
+	
+	
+	}
+
+}

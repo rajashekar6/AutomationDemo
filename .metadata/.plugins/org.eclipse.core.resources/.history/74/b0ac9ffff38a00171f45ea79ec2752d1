@@ -1,0 +1,19 @@
+package javabasics;
+
+public class basic {
+
+	int a, b ;
+	void acc()
+	{
+		 a = 44 ; b=33;
+	}
+	void add()
+	{
+		int c = a+b;
+
+	}
+
+	
+	
+
+}

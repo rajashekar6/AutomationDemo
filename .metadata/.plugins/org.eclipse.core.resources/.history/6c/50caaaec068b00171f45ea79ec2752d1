@@ -1,0 +1,62 @@
+package javabasics;
+
+public class primenumber {
+
+	int n;
+
+	void set(int x)
+	{
+x=33;
+		n=x;
+	}
+	String decide()
+	{
+		int i;
+		for(i=2; i<n; i++)
+		{
+			int r=n%2;
+			if(r==0)
+			{
+				break;
+			}
+		}
+		if(i==n)
+		{
+			return "PRIME";
+			
+		}else{
+			return "N0TPRIME";
+			
+		}
+			
+	}
+	
+	void disp()
+	{
+		String res= decide();
+	System.out.println(n+"is"+res);
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+   if(args.length!=1)
+   {
+	   System.out.println("enter only one ");
+   }
+   else{
+	   int x= Integer.parseInt(args[0]);
+	   if (x<=1){
+		   System.out.println(x+"invalid");
+		   
+	   }
+	   else{
+		   primenumber p= new primenumber();
+		   p.set(x);
+		   p.disp();
+	  
+	   }
+   }
+	}	
+	}
+
+

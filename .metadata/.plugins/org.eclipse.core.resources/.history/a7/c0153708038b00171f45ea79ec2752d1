@@ -1,0 +1,25 @@
+package javabasics;
+
+public class postinmbr {
+	int x,y,n;
+	x=10;
+	y=2;
+	void numb()
+	{
+		n=x;
+	}
+	String decid()
+	
+	{
+		if(n>0)
+	}
+	{
+	return "positive";
+	
+	}
+}
+	public static void main (String arg[])
+	{
+
+}
+}

@@ -1,0 +1,32 @@
+package practiceothers;
+
+public class ifelseladder {
+
+	public static void main(String[] args) {
+		
+		int m=7338;
+		
+		if(m<35){
+			System.out.println("fail");
+		}
+		else if(m>=35&&m<50){
+			
+			System.out.println("Dgrade");
+		}
+		else if(m>=50&&m<75){
+			
+			System.out.println("b grade");
+			
+		}else if(m>=75&&m<90){
+			
+		System.out.println("first class");
+			
+		}else
+			System.out.println("diviosn");
+		}
+		
+		
+		
+	}
+	
+

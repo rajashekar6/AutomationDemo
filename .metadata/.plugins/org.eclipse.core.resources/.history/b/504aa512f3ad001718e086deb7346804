@@ -1,0 +1,30 @@
+package javabasics;
+
+import java.util.Scanner;
+
+public class palindrome {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			int i, pal=0, num, a;
+			Scanner s= new Scanner(System.in);
+			System.out.println("enter number :");
+			num=s.nextInt();
+		    i=num; 
+		    while(num>0)
+		    {
+		    	a=num%10;
+		    	num=num/10;
+		    	pal=pal*10+a;
+		    }
+		    if(pal==i)
+		    {
+		    	System.out.println("pal");
+		    	
+		    }else{
+		    	System.out.println("not pal");
+		    }
+	}
+	
+
+}

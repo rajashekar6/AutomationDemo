@@ -1,0 +1,29 @@
+package javabasics;
+
+public class nestedlooplabeled {
+	
+	public static void main(String[] args) {
+	
+	int i;
+	int j;
+		
+	first:
+	
+	for(i=5;i<=8;i++){
+	second:
+	
+	for(j=44;j<50;j++){
+		
+		if(i==25&&j==49){
+			break first;
+			
+			
+		}
+		System.out.println(i+" "+j);
+	}
+	}
+	
+		
+	}
+
+}

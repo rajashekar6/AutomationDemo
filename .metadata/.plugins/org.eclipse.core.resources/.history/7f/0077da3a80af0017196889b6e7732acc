@@ -1,0 +1,16 @@
+package collectionsjava;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class looparraylist {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			ArrayList<Integer> ar = new ArrayList<Integer>(
+					Arrays.asList(34, 4, 36, 2) );
+			
+		
+	}
+
+}

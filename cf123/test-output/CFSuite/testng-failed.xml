@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CFSuite]">
+  <listeners>
+    <listener class-name="multiusermigration.listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="multimigrations(failed)">
+    <classes>
+      <class name="multiusermigration.Multicloudadding">
+        <methods>
+          <include name="deletecookies"/>
+          <include name="home"/>
+        </methods>
+      </class> <!-- multiusermigration.Multicloudadding -->
+      <class name="multiusermigration.Multiusrmigration">
+        <methods>
+          <include name="multiMigrate"/>
+          <include name="reports"/>
+        </methods>
+      </class> <!-- multiusermigration.Multiusrmigration -->
+    </classes>
+  </test> <!-- multimigrations(failed) -->
+</suite> <!-- Failed suite [CFSuite] -->

@@ -1,0 +1,46 @@
+package javabasics;
+
+import java.util.ArrayList;
+
+public class arraylist {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		 /*Creation of ArrayList: I'm going to add String
+	       *elements so I made it of string type */
+		ArrayList<String> obj = new ArrayList<String>();
+		
+		/*This is how elements should be added to the array list*/
+		obj.add("sai");
+		obj.add("nar");
+		obj.add("Chaitanya");
+		  obj.add("Steve");
+		  obj.add("Anuj");
+		 
+		  /* Displaying array list elements */
+		  System.out.println("Currently the array list has following elements:"+obj);
+		  
+		  /*Add element at the given index*/
+		/*obj.add(3, "element");
+		obj.add(4, "3443element");
+		obj.add(4, "3443element");
+		obj.add(4, "3443element");
+		obj.add(5, "3e443element");
+		obj.add(4, "3443element");
+		System.out.println("2  elements:"+obj);*/
+	
+		 obj.remove("Chaitanya");
+		  obj.remove("Harry");
+		  obj.set(2, "set2");
+		  System.out.println("3 elements:"+obj);
+	
+	 int p= obj.indexOf("Harry");
+	 
+	 System.out.println(p);
+	}
+	
+	
+
+
+}

@@ -1,0 +1,51 @@
+		
+		
+		//amazon pop up in cloudfuze window
+		
+		
+		String parentWindowHandler = driver.getWindowHandle(); // Store your parent window
+		String subWindowHandler = null;
+		
+			Set<String> handles = driver.getWindowHandles(); // get all window handles
+			Iterator<String> iterator = handles.iterator();
+			while (iterator.hasNext()){
+			    subWindowHandler = iterator.next();
+			System.out.println();
+		}
+		
+		driver.switchTo().window(subWindowHandler); // switch to popup window
+
+		// Now you are in the popup window, perform necessary actions here
+
+		driver.findElement(By.xpath(prop.getProperty("A.Username"))).sendKeys("fff");
+		driver.findElement(By.xpath(prop.getProperty("A.Password"))).sendKeys("fff");
+		driver.findElement(By.xpath(prop.getProperty("A.Login"))).click();  //login amazon
+		
+		--------------------------------------------------------------------------
+		// .//*[@id='pyxl1324414262640012988']
+By.name("")) use name   dropbox popup paths 
+//.//*[@id='pyxl1324414262640012991']
+------------------------------------------------------
+downlaod popup
+
+
+FirefoxProfile profile = new FirefoxProfile();
+profile.setPreference("browser.download.folderList", 2);
+profile.setPreference("browser.download.dir", "C:\\Windows\\temp");
+profile.setPreference("browser.helperApps.neverAsk.saveToDisk", "application/vnd.ms-excel");
+profile.setPreference("pdfjs.disabled", true);  // disable the built-in PDF viewer
+
+WebDriver driver = new FirefoxDriver(profile);
+driver.get("http://www.exinfm.com/free_spreadsheets.html");
+driver.findElement(By.linkText("Capital Budgeting Analysis")).click();
+
+-------------------------------------------------------------------------------------------
+migration.java 
+112 line 
+/*  /driver.findElement(By.xpath(prop.getProperty("G.Cancel"))).click();
+		
+		//driver.switchTo().window(parentWindowHandler);  // switch back to parent window
+			*/
+		//Manageclouds 
+		
+		
