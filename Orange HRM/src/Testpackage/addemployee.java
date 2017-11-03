@@ -9,7 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class addemployee {
 
-	//COMMITTED TO gITHUB
+	//REMOVING COMMIT
 	public static void main(String[] args) throws InterruptedException {
   
 	// open the firefoxbrowser
