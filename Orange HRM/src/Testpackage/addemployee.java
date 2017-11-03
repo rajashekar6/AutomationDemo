@@ -11,7 +11,7 @@ public class addemployee {
 
 	
 	public static void main(String[] args) throws InterruptedException {
-
+   ///commit this once in github
 	// open the firefoxbrowser
 		WebDriver driver=new FirefoxDriver();
 	//maximize the browser
