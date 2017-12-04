@@ -8,7 +8,7 @@ import java.util.Iterator;
 import java.util.List;
 
 public class looparraylist {
-
+//array list commit
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 			ArrayList<Integer> ar = new ArrayList<Integer>(
