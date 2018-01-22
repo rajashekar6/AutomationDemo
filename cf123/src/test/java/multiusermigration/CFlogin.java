@@ -19,6 +19,7 @@ public class CFlogin extends baseclass {
 	
 	public CFlogin(WebDriver driver) {
 			// TODO Auto-generated constructor stub	
+	this.driver= driver;
 	}
 
 
