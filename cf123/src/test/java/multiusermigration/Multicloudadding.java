@@ -70,6 +70,7 @@ public class Multicloudadding extends baseclass  {
 		driver.switchTo().window(winHandleBefore);
 		log.info("Gsuite added");
 	}
+	//sd
 	
 	@AfterSuite 
 	public void deletecookies()
