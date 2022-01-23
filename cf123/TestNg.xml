@@ -6,8 +6,6 @@
 <listener class-name="resources.ExtentReporterNG"/>
 
 </listeners>
-
-
   <test name="multiCloudAdding">
     <classes>
       <class name="multiusermigration.Multicloudadding"/>
