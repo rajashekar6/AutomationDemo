@@ -6,8 +6,6 @@
 <listener class-name="resources.ExtentReporterNG"/>
 
 </listeners>
-
-
   <test name="homepage">
     <classes>
       <class name="magento.MoonAudio.homepage"/>
