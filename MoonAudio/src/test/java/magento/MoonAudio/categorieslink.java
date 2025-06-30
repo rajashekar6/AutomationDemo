@@ -4,6 +4,9 @@ import java.io.IOException;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -43,9 +46,13 @@ public void homecat() throws IOException, InterruptedException
 	  {
 		log.info("test case failed");
 	  }
-	
+	driver.manage().window().fullscreen();
+	driver.manage().window().wait();
+	WebElement s= driver.findElement(By.xpath(""));
 
-	
+ Select ss= new Select(s);
+ 
+ ss.selectByIndex(0);
 }
 @AfterTest
 

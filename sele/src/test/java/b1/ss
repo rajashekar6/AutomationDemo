@@ -1,0 +1,11 @@
+for(WebElement s : sug)
+		{
+		String n= s.getAttribute("aria-label").;
+		if(n.equalsIgnoreCase("oneplus mobile phone"))
+				{
+			s.click();
+		}
+		
+		
+				List<WebElement> sug = driver.findElements(By.xpath("//div[@class='s-suggestion s-suggestion-ellipsis-direction']"));
+		

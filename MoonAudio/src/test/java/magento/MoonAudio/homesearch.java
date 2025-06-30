@@ -50,7 +50,7 @@ public void homepagesearch() throws IOException, InterruptedException
 public void closebrowser()
 
 {
-	
+	driver.navigate().to("");
 	driver.close();
 }
 }
