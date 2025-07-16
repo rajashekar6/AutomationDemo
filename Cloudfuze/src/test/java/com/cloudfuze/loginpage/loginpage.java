@@ -24,7 +24,8 @@ public class loginpage {
 			
 			driver.findElement(By.xpath("//*[@id='Table_01']/tbody/tr[1]/td[2]/table/tbody/tr[4]/td[1]/input']")).click();
 		
-			Thread.sleep(5000);	
+			Thread.sleep(5000);
+		//dsd
 	
 	}
 }
